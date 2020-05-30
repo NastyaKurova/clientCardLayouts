@@ -1,0 +1,46 @@
+.IP {
+
+}
+
+.IPBlock {
+    position: relative;
+    padding: 27px 0;
+}
+
+.IPBlock:before, .IPBlock:after {
+    content: "";
+    clear: both;
+}
+
+
+.IPText {
+    float: left;
+}
+
+.IPImg {
+    float: left;
+    right: 0;
+    top: 0;
+    width: 60px;
+    transform: rotate(-90deg);
+    padding-right: 24px;
+}
+
+.IPLook {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.IPExample {
+    float: left;
+    margin: 20px;
+    width: calc(100% / 3 - 40px)
+}
+
+.IPMessage{
+    text-align: center;
+    padding: 20px;
+    color: crimson;
+    font-size: 17px;
+}

@@ -10,16 +10,16 @@ input.yellow-input + label {
 }
 
 input.yellow-input:focus + label {
-    color: #ffeb3b !important;
+    color: #fdd835 !important;
 }
 
 input.yellow-input:focus + label {
-    border-bottom: 1px solid #ffeb3b !important;
+    border-bottom: 1px solid #fdd835 !important;
     box-shadow: 0 1px 0 0 #fff !important;
 }
 
 .active {
-
+    color: red;
 }
 
 

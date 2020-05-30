@@ -1,0 +1,173 @@
+.PL {
+
+}
+
+.PLNavbar {
+    z-index: 1;
+    position: sticky;
+    top: 86px;
+    background: #eff3f6;
+    border-radius: 3px;
+    height: 43px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.PLNavbar:before, .PLNavbar:after {
+    content: "";
+    clear: both;
+}
+
+.PLNavbarItem {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:first-child {
+    display: flex;
+    padding: 10px;
+    width: 40px;
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(2) {
+    display: flex;
+    padding: 10px;
+    width: calc(50% - 40px - 250px);
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(3) {
+    display: flex;
+    padding: 10px;
+    width: calc(50% - 200px);
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(4) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(5) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(6) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 16px;
+}
+
+.PLNavbarItem:nth-child(7) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 16px;
+}
+
+
+.PLI {
+    height: 60px;
+    line-height: 38px;
+    border: 1px solid #d3dde0;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    display: flex;
+}
+
+.PLI:hover {
+    border: 1px solid #36A728;
+}
+
+.PL a {
+    text-decoration: none;
+}
+
+.PLIPart {
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.PLIPart:first-child {
+    display: flex;
+    padding: 10px;
+    width: 40px;
+
+}
+
+.PLIPart:nth-child(2) {
+    display: flex;
+    padding: 10px;
+    width: calc(50% - 40px - 250px);
+}
+
+.PLIPart:nth-child(3) {
+    display: flex;
+    padding: 10px;
+    width: calc(50% - 200px);
+
+}
+
+.PLIPart:nth-child(4) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPart:nth-child(5) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+
+}
+
+.PLIPart:nth-child(6) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPart:nth-child(7) {
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPartSuccess {
+    color: #36A728;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPartDanger {
+    color: crimson;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPartPrimary {
+    color: #0277bd;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}
+
+.PLIPartAlert {
+    color: #5e35b1;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+}

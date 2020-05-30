@@ -1,0 +1,81 @@
+/*background-color: rgb(118, 170, 49);*/
+.EditPage {
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+    background: white;
+    padding: 10px 16px;
+    margin-bottom: 80px;
+}
+
+.EditPage {
+
+}
+
+.EditPage:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.EditPage:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.EPLeft {
+    width: calc(50% - 8px);
+    float: left;
+    margin-left: 8px;
+    background: #efebe9;
+    padding: 10px;
+}
+
+.EPLeftCenter {
+    width: calc(50% - 8px);
+    margin: 0 auto;
+    background: #efebe9;
+    padding: 10px;
+}
+
+.EPRight {
+    width: calc(50% - 8px);
+    float: left;
+    margin-right: 8px;
+}
+
+.EPRight button {
+    margin: 10px;
+}
+
+.EPRightDisable {
+    display: none;
+}
+
+.EPRightIcos i {
+    float: left;
+    cursor: pointer;
+}
+
+.MainTemp {
+    background: white;
+    padding: 10px;
+    border: 1px dotted #8b9ca5;
+}
+
+.TempBlock {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.EPButton {
+    text-align: center;
+}
+
+.ImageTemp img {
+    height: 152px;
+}
+
+input {
+
+}

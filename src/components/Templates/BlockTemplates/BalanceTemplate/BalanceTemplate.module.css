@@ -1,0 +1,25 @@
+.ImageTemp {
+}
+
+.BalanceTempHeader {
+    font-size: 12px;
+}
+
+.BalanceTempContent {
+    font-size: 20px;
+}
+
+.BalanceTempContent i {
+    cursor: pointer;
+}
+
+.BalanceTempContent {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #41444c;
+    font-size: 14px;
+}
+
+.BalanceTempSub {
+    margin-top: 4px;
+    font-size: 12px;
+}

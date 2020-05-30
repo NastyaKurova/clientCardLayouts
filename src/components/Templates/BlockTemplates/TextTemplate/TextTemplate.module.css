@@ -1,0 +1,18 @@
+.TextTemp {
+
+}
+
+.TextTempHeader {
+    font-size: 12px;
+}
+
+.TextTempContent {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #41444c;
+    font-size: 14px;
+}
+
+.TextTempSub {
+    margin-top: 4px;
+    font-size: 12px;
+}

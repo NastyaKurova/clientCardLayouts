@@ -1,0 +1,19 @@
+
+.MLHeader:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.MLHeader:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.MLHeaderText{
+    float: left;
+}
+.MLHeaderButton{
+    float: right;
+    margin: 2.5rem 0 1.168rem 0;
+}

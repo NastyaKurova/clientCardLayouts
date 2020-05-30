@@ -1,0 +1,29 @@
+{
+  "text": {
+    "type": "text",
+    "header": "Номер карты",
+    "text": "123456789",
+    "subText": "Номер определяется автоматчески"
+  },
+  "image": {
+    "type": "image",
+    "header": "Новая карта",
+    "link": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAmv520YBRAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII="
+  },
+  "balance": {
+    "type": "balance",
+    "header": "Баланс карты",
+    "count": "400",
+    "subText": "Обновите баллы перед покупкой"
+  },
+  "map": {
+    "type": "map",
+    "header": "Адреса магазинов",
+    "adresses": ["Санкт-Петербург, Сенная площадь, 7","Санкт-Петербург, Гороховая улица, 51"],
+    "coordinates": [[0,0],[0,0]]
+  },
+  "sales": {
+    "type": "sales",
+    "salesList": []
+  }
+}
