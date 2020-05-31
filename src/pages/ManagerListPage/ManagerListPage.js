@@ -35,7 +35,6 @@ const ManagerListPage = () => {
   const listItemData = {
     hasHeaderClass: 'PLNavbar',
     hasListClass: 'PLI',
-    link: '/partners/',
     items: [
       {
         field: 'index'

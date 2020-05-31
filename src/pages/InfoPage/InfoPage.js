@@ -26,7 +26,7 @@ const InfoPage = () => {
     <div>
       <h3>Онлайн хранилище карт</h3>
       <div className={classes.IPBlock}>
-        <div className={classes.IPText}>Попробуйте воспользоваться удобной системой карт в своем раузере</div>
+        <div className={classes.IPText}>Попробуйте воспользоваться удобной системой карт в своем браузере</div>
         <img src={Arrow} alt="arrow" className={classes.IPImg}/>
       </div>
       <div className={classes.IPBlock}>
